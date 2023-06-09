@@ -66,7 +66,7 @@ img {
     color: #dc143c;
 }
 
-.landingPage .topSide .freelancerName p {
+.landingPage .topSide {
     font-size: 32px;
     color: crimson;
     text-align: right;
@@ -101,7 +101,8 @@ img {
 }
 
 .landingPage .mainImage img {
-    max-width: 100%;
+    width: 700px;
+    height: 700px;
 }
 
 .landingPage .bottomLeftSide {

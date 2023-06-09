@@ -9,3 +9,5 @@ if (position > msg.length) position = 0
 window.setTimeout("scrolltitle()",170);
 }
 scrolltitle();
+
+
