@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: Helvetica;
+    color: red;
+}
+p{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: red;
+}
+.button-case{
+    border: 5px solid black;
+    padding: 20px;
+}
+button{
+    border-radius: 25px;
+    font-family: Helvetica;
+    padding: 10px;
+    font-size: 20px;
+    transition: ease-in-out 250ms;
+}
+button:hover{
+    transform: translateY(5px);
+    background-color: black;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.higher-lower, .tic-tac-toe, .dashboard, .webcatalogus, .themaweek-2, .themaweek-1{
+    padding: 50px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 25px;
+    color: white;
+}
+img{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    font-size: 25px;
+    transition: ease-in-out 250ms;
+}
+a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.tictactoe, .dashboard-img, .webcatalogus-img, .themaweek-2-img, .themaweek-1-img{
+    width: 532px;
+}

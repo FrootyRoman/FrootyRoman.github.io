@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Buttie Cheesie Eggie/MainMenu/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="start" onclick="start()">Start</div>
+        <a href="/Buttie Cheesie Eggie/MainMenu/index.html">Home</a>
+        <div class="playField">
+            <div id="box" class="box t1"></div>
+            <div id="box" class="box t2"></div>
+            <div id="box" class="box t3"></div>
+            <div id="box" class="box t4"></div>
+            <div id="box" class="box t5"></div>
+            <div id="box" class="box t6"></div>
+            <div id="box" class="box t7"></div>
+            <div id="box" class="box t8"></div>
+            <div id="box" class="box t9"></div>
+        </div>
+        <aside class="winBar">
+            Wins
+            <hr class="horizontalLine">
+            <div class="XandO">
+                <div class="XwinAmount"></div>
+                <hr class="verticalLine">
+                <div class="OwinAmount"></div>
+            </div>
+            <hr class="horizontalLine">
+            <button class="resetWinButton">Reset Wins</button>
+        </aside>
+        <div id="showTurn"></div>
+    </div>
+    <script src="/Buttie Cheesie Eggie/PvE/checkW.js"></script>
+    <script src="/Buttie Cheesie Eggie/PvE/main.js"></script>
+</body>
+</html>
