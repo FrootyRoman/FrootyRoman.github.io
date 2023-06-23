@@ -1,7 +1,7 @@
 const scene = document.getElementById('scene');
 const parallaxInstance = new Parallax(scene);
 
-//Dit laat een custom tab zien die beweegt
+
 msg = "🧛";
 msg = "  Portfolio Roman " + msg;position = 0;
 function scrolltitle() {
